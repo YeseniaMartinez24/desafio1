@@ -37,12 +37,7 @@ function Formulario() {
 </Card.Body>
 </Card><br/>
   </div>))}
-  
           </div>
-
-
-
-          
         </div>
         </div>
    
