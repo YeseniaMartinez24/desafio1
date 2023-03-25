@@ -40,4 +40,59 @@ textarea {
   }
 }
 
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* agrega esta línea para centrar el contenido */
+  gap: 20px;
+  margin: 20px;
+  background-color: plum;
+  max-width: 50rem;
+  width: 100%;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    margin-left: 300px;
+    justify-content: space-between; /* agrega esta línea para distribuir el contenido */
+  }
+}
+
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
 /*----------------------------------------------------------------*/
