@@ -5,6 +5,7 @@ let productModel = require('../models/product');
 /* GET users listing. */
 router.get("/", async function (req, res, next) {
   const resultado = await productModel.find();
+  console.log(resultado);
   res.json(resultado);
 });
 
